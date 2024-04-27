@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>3D Car Drive</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" >
+    </head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <body onload="done()">
+        <div id="scoreDiv">
+            <span id="score">0</span>
+            <img src="coin.png" id="cn">
+        </div>
+        <div class="gameHome" id="startPage" style="background:url('back.png'); background-repeat: no-repeat; background-size: cover;">
+            <img onclick="ld()" id="playBtn" style="background:url('play.png')"></button><br>
+            <div id="ldc">
+                <div id="loading">
+                    Loading...
+                </div>
+			</div>
+        </div>
+        <div id="mainContainer" style="background:#0f9b0f" >
+		 <div id="mark"></div>
+            <img id="city" src="city.jpg">
+            <canvas id="myCanvas" style="background-color: #006400;" ></canvas>
+        </div>
+		<!--mycar-->
+		<img class="aImg" id="c1"  src="car4.png"> 
+        <img class="aImg" id="t1" src="t1.png">
+        <img class="aImg" id="t2" src="t2.png">
+        <img class="aImg" id="t3" src="t3.png">
+        <img class="aImg" id="t4" src="t4.png">
+		 <img class="aImg" id="t5" src="t5.png">
+		  <img class="build" id="t6" src="t6.png">
+		  <img class="build" id="t7" src="build2.png">
+        
+		
+		
+		
+		<!--enemycar-->
+		
+		<img class="aImg" id="c3" src="car1.png">
+		<img class="aImg" id="c4" src="car3.png">
+		<img class="aImg" id="c5" src="car5.png">
+		<img class="aImg" id="c6" src="car6.png">
+		<img class="aImg" id="c7" src="car7.png">
+		<img class="aImg" id="c8" src="bus.png">
+
+        <script>           
+        
+        </script>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
